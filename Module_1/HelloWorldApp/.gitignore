@@ -1,0 +1,32 @@
+## Eclipse IDE
+bin/
+temp/
+.metadata/
+*.tmp
+.settings/
+local.properties
+
+## VS Code IDE
+.vscode
+.code-workspace
+
+## IntelliJ IDEA
+.idea/  
+out/
+
+## NetBeans
+build/
+nbproject/
+dist/
+nbbuild/
+
+## General files
+*.class
+*.jar
+*.war
+*.log
+/target/
+hs_err_pid*
+.project
+.classpath
+*.impl
