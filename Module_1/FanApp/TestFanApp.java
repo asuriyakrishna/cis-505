@@ -9,10 +9,10 @@ public class TestFanApp {
         Fan fan1 = new Fan();
 
         // Create fan using argument constructor with constants
-        Fan fan2 = new Fan(Fan.FAST, true, 10, "blue");
+        Fan fan2 = new Fan(Fan.MEDIUM, true, 8.0, "Blue");
 
         // Display the objects
-        System.out.println("Fan 1 (Default): " + fan1);
-        System.out.println("Fan 2 (Custom): " + fan2);
+        System.out.println("The fan is " + fan1);
+        System.out.println("The fan speed is " + fan2);
     }
 }

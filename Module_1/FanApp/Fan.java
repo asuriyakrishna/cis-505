@@ -75,9 +75,9 @@ public class Fan {
     @Override
     public String toString() {
         if (on) {
-            return "Fan Speed: " + speed + ", Color: " + color + ", Radius: " + radius;
+            return "set to " + speed + " with a color of " + color + " and a radius of " + radius;
         } else {
-            return "Color: " + color + ", Radius: " + radius + ", fan is off";
+            return color + " with a radius of " + radius + " and the fan is off";
         }
     }
 }
