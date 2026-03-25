@@ -22,7 +22,6 @@ nbbuild/
 
 ## General files
 *.class
-*.jar
 *.war
 *.log
 /target/
