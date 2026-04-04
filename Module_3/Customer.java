@@ -1,5 +1,9 @@
 package Module_3;
 
+/*
+Customer class with private instance variables for name, address, city, and zip.
+Include a default constructor that initializes the instance variables with default values, and a parameterized constructor.
+ */
 public class Customer {
     private String name;
     private String address;
@@ -37,7 +41,6 @@ public class Customer {
         return zip;
     }
 
-    //return in new line
     @Override
     public String toString() {
         return 

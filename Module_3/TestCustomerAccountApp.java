@@ -1,5 +1,12 @@
+/*
+Liang, Y.D. (2019). Introduction to Java Programming and Data Structures:
+Comprehensive Version (12th ed.). Pearson Education, Inc.
+ */
 package Module_3;
 
+/*
+Test the Customer and Account classes by creating a TestCustomerAccountApp class with a main
+ */
 public class TestCustomerAccountApp {
     
     public static void main(String[] args) {
@@ -26,7 +33,7 @@ public class TestCustomerAccountApp {
                     account.withdraw(withdrawAmount);
                     break;
                 case "b":
-                    System.out.print("Account balance: $" + String.format("%.2f", account.getBalance()));
+                    System.out.printf("Account balance: $%,6.2f\n", account.getBalance());
                     break;
                 default:
                     System.out.println("Error: Invalid Option");
@@ -39,7 +46,7 @@ public class TestCustomerAccountApp {
         System.out.println();
         System.out.println("--Customer Details--");
         System.out.println(customer.toString());
-        System.out.println("Balance as of " + account.getTransactionDate() + ": $" + String.format("%.2f", account.getBalance()));
+        System.out.printf("Balance as of %s: $%,6.2f\n", account.getTransactionDate(), account.getBalance());
         System.out.println();
         System.out.println("End of line...");
     }

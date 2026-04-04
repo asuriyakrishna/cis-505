@@ -1,5 +1,9 @@
 package Module_3;
 
+/*
+Database class to return a Customer object based on the provided customer ID. 
+The getCustomer method should return a Customer object.
+ */
 public class CustomerDB {
     public static Customer getCustomer(Integer id) {
         if (id == 1007) {

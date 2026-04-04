@@ -1,5 +1,9 @@
 package Module_3;
 
+/*
+Account class with a private instance variable for balance, a default constructor that initializes the balance to $200.00
+Methods for deposit, withdraw, getBalance, displayMenu, and getTransactionDate.
+ */
 public class Account {
     private double balance;
     
