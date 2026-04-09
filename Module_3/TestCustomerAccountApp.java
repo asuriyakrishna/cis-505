@@ -11,6 +11,7 @@ public class TestCustomerAccountApp {
     
     public static void main(String[] args) {
         java.util.Scanner scanner = new java.util.Scanner(System.in);
+        System.out.println("Welcome to the Customer Account App");
         System.out.println("Enter a customer ID:");
         System.out.print("  ex: 1007, 1008, 1009>: ");
         int customerId = scanner.nextInt();
