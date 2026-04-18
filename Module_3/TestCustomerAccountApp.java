@@ -50,5 +50,6 @@ public class TestCustomerAccountApp {
         System.out.printf("Balance as of %s: $%,6.2f\n", account.getTransactionDate(), account.getBalance());
         System.out.println();
         System.out.println("End of line...");
+        scanner.close();
     }
 }

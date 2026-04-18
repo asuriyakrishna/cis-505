@@ -8,12 +8,20 @@ public class ProductDB {
         GenericQueue<Product> balls = new GenericQueue<Product>();
 
         if (code.equalsIgnoreCase("b")) {
+            String[] colors = {
+                "Black and Pink",
+                "Red and Green",
+                "Blue and Yellow",
+                "White and Purple",
+                "Orange and Black"
+            };
+
             for (int i = 1; i <= 5; i++) {
                 Ball ball = new Ball();
                 ball.setCode("B100" + i);
                 ball.setDescription("Black Widow " + i);
                 ball.setPrice(49.99 + i);
-                ball.setColor("Color " + i);
+                ball.setColor(colors[i - 1]);
                 balls.enqueue(ball);
             }
         } else if (code.equalsIgnoreCase("s")) {
