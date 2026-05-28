@@ -53,14 +53,17 @@ public class KrishnaGradeBookApp extends Application {
         Label firstNameLabel = new Label("First Name:");
         firstNameField = new TextField();
         firstNameField.setPrefColumnCount(18);
+        firstNameField.setOnAction(event -> saveGradeEntry());
 
         Label lastNameLabel = new Label("Last Name:");
         lastNameField = new TextField();
         lastNameField.setPrefColumnCount(18);
+        lastNameField.setOnAction(event -> saveGradeEntry());
 
         Label courseLabel = new Label("Course:");
         courseField = new TextField();
         courseField.setPrefColumnCount(18);
+        courseField.setOnAction(event -> saveGradeEntry());
 
         Label gradeLabel = new Label("Grade:");
         gradeComboBox = new ComboBox<>();
